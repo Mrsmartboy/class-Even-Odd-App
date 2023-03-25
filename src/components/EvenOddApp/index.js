@@ -7,7 +7,7 @@ class EvenOddApp extends Component {
 
   onClickIncrement = () => {
     const randomNumber = Math.floor(Math.random() * 100)
-    this.setState(prevState=>({prevState.number+1})}
+    this.setState(prevState=>({prevState.number+randomNumber})}
   }
 
   render() {
